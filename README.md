@@ -1,6 +1,6 @@
 # Responsive Web Design
 
-A responsive web design project built as part of the **Responsive Web Design Certification** on **[freeCodeCamp.org]("https://freecodecamp.org/")**. This project demonstrates proficiency in HTML5, CSS3, Flexbox, Grid, and basic accessibility principles.
+A responsive web design project built as part of the **Responsive Web Design Certification** on **[freeCodeCamp.org](https://freecodecamp.org/)**. This project demonstrates proficiency in HTML5, CSS3, Flexbox, Grid, and basic accessibility principles.
 
 ---
 
