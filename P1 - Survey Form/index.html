@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="form">
+      <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">
+          A survey form to collect personal interests of students
+        </p>
+      </header>
+
+      <main>
+        <form id="survey-form">
+          <fieldset class="main">
+            <label id="name-label" for="name"
+              >Name<input
+                id="name"
+                type="text"
+                placeholder="John Doe"
+                required
+              />
+            </label>
+            <label id="email-label" for="email"
+              >Email<input
+                id="email"
+                type="email"
+                placeholder="johndoe@gmail.com"
+                required
+              />
+            </label>
+            <label id="number-label" for="number"
+              >Age<input
+                id="number"
+                type="number"
+                min="8"
+                max="30"
+                placeholder="24"
+                required
+              />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>What is your English language level</legend>
+            <select id="dropdown">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Expert</option>
+              <option>Native</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>What is your current education level?</legend>
+            <label class="radio-set"
+              ><input
+                type="radio"
+                name="example"
+                value="nothing"
+                checked
+              />Highschool</label
+            >
+            <label class="radio-set"
+              ><input type="radio" name="example" value="nothing" />Under
+              Gradution</label
+            >
+            <label class="radio-set"
+              ><input type="radio" name="example" value="nothing" />Post
+              Gradution</label
+            >
+          </fieldset>
+
+          <fieldset class="checkbox">
+            <legend>What are your hobbies?</legend>
+            <label><input type="checkbox" value="apple" />Reading books</label>
+            <label
+              ><input type="checkbox" value="apple" />Watching movies</label
+            >
+            <label
+              ><input type="checkbox" value="apple" />Playing football</label
+            >
+            <label
+              ><input type="checkbox" value="apple" />Learning skills</label
+            >
+            <label
+              ><input type="checkbox" value="apple" />Listening music</label
+            >
+            <label><input type="checkbox" value="apple" />Other</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Describe about your self in few words</legend>
+            <textarea rows="5" cols="30"></textarea>
+          </fieldset>
+
+          <fieldset>
+            <button id="submit" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
