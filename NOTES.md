@@ -1,10 +1,12 @@
-# Project 1 - Cat Photo App
+# Notes of All Projects
+
+## Project 1 - Cat Photo App
 
 + <fieldset> and <legend>
 
 --- 
 
-# Project 2 - Cafe Menu
+## Project 2 - Cafe Menu
 
 + `<article>` = Self contained piece of content (blog post, etc).
 
@@ -29,7 +31,7 @@
 
 ---
 
-# Project 3 - Colored Markers
+## Project 3 - Colored Markers
 
 + rgb, rgba - `rgba(255, 127, 0, 0.5)`
 + hsl, hsla - `hsla(240, 100%, 100%, 0.8)`
@@ -39,7 +41,7 @@
 
 ---
 
-# Project 4 - Registration Form
+## Project 4 - Registration Form
 
 + `pattern="[a-z0-5]{8,}` in `<input type="password">`
 + min and max in `<input type="number">`
@@ -53,3 +55,8 @@
 + `vetical-align` acts like items-center in flex.
 + `input[type:"submit"]` selects only the input with the specified attribute.
 
+## Project 5 - Rothko Painting
+
++ `filter: blur(10px)` to blur the content
++ `transform: rotate(0.5deg)` to rotate the content
++ `box-shadow: 0 0 3px 3px #8f0401` to give shadow to the box model.
