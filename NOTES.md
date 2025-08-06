@@ -2,9 +2,10 @@
 
 ## Project 1 - Cat Photo App
 
-+ <fieldset> and <legend>
++ `<fieldset>` and `<legend>`
 
 --- 
+
 
 ## Project 2 - Cafe Menu
 
@@ -31,6 +32,7 @@
 
 ---
 
+
 ## Project 3 - Colored Markers
 
 + rgb, rgba - `rgba(255, 127, 0, 0.5)`
@@ -40,6 +42,7 @@
 + `background: linear-gradient(#55680D, #71F53E, #116C31);`
 
 ---
+
 
 ## Project 4 - Registration Form
 
@@ -55,8 +58,20 @@
 + `vetical-align` acts like items-center in flex.
 + `input[type:"submit"]` selects only the input with the specified attribute.
 
+---
+
+
 ## Project 5 - Rothko Painting
 
 + `filter: blur(10px)` to blur the content
 + `transform: rotate(0.5deg)` to rotate the content
 + `box-shadow: 0 0 3px 3px #8f0401` to give shadow to the box model.
+
+---
+
+
+## Project 6 - Photo Gallery
+
++ `text-transform: uppercase`
++ `box-sizing: border-box` and `content-box`. border-box for content the items inside the box.
++ `.item::after` and `::before` to style something before and after the item.
