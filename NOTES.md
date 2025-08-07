@@ -75,3 +75,17 @@
 + `text-transform: uppercase`
 + `box-sizing: border-box` and `content-box`. border-box for content the items inside the box.
 + `.item::after` and `::before` to style something before and after the item.
+
+--- 
+
+
+## Project 7 - Nutrition Label
+
++ `rem` means root em, which is mainly used for fonts. this takes root font-size as main value, and adjust the content. eg: 
+```bash
+html { font-size: 20px } 
+textOne { font-size: 0.50rem } // around 10px
+```
+
++ `p:not(...)`, not excludes the given value item from other same items.
++ `text-indent: 2px` intents the text.
