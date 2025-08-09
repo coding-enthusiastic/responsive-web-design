@@ -127,3 +127,15 @@ p {
 ```
 
 + `aspect-ratio: 3/2;` - allows to define the ratio between width and height
+
+---
+
+## Project 11 - Piano
+
++ `float` - specifies how an element should float
+
++ 
+
++ 
+
++ 
