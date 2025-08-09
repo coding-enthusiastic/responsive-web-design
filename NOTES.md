@@ -5,8 +5,7 @@
 + focus on **Basic HTML**
 + `<fieldset>` and `<legend>`
 
---- 
-
+---
 
 ## Project 2 - Cafe Menu
 
@@ -28,13 +27,12 @@
     11. `<mark>`- Highlights the text
     12. `<summary>` & `<details>` - Expandable content
     13. `<blockquote>` - Quoted text
-    14. `<cite> `- Citation. Used with `<blockquote>` or `<figure>`
+    14. `<cite>`- Citation. Used with `<blockquote>` or `<figure>`
     15. `<code>`
 
 + Use only one `<main>` and `<h1>` for better SEO.
 
 ---
-
 
 ## Project 3 - Colored Markers
 
@@ -47,13 +45,12 @@
 
 ---
 
-
 ## Project 4 - Registration Form
 
 + focus on **HTML Forms**
 + `pattern="[a-z0-5]{8,}` in `<input type="password">`
 + min and max in `<input type="number">`
-+ rows and cols in `<textarea>` 
++ rows and cols in `<textarea>`
 + target="_blank" in `<a>` tag, opens the link in new tab.
 
 + `<select>` and `<option>`
@@ -65,7 +62,6 @@
 
 ---
 
-
 ## Project 5 - Rothko Painting
 
 + focus on **CSS Box Model**
@@ -75,7 +71,6 @@
 
 ---
 
-
 ## Project 6 - Photo Gallery
 
 + focus on **CSS Flexbox**
@@ -83,13 +78,13 @@
 + `box-sizing: border-box` and `content-box`. border-box for content the items inside the box.
 + `.item::after` and `::before` to style something before and after the item.
 
---- 
-
+---
 
 ## Project 7 - Nutrition Label
 
 + focus on **Typography**
-+ `rem` means root em, which is mainly used for fonts. this takes root font-size as main value, and adjust the content. eg: 
++ `rem` means root em, which is mainly used for fonts. this takes root font-size as main value, and adjust the content. eg:
+
 ```bash
 html { font-size: 20px } 
 textOne { font-size: 0.50rem } // around 10px
@@ -100,13 +95,13 @@ textOne { font-size: 0.50rem } // around 10px
 
 ---
 
-
-# Project 8 - Quiz
+## Project 8 - Quiz
 
 + focus on **Accessibility**
 + `@media (prefers-reduced-motion: no-preference) {}` - used for accessibility setting. `no-preference` prevents problems that causing transition, animation issues.
 
-+ `role=""` attribute creates better accessibility. It specifies the content role. eg: 
++ `role=""` attribute creates better accessibility. It specifies the content role. eg:
+
 ```bash
 
 <a type="submit" role="button">Submit</a>
@@ -118,7 +113,7 @@ textOne { font-size: 0.50rem } // around 10px
 ```
 
 + Instead of using media query for responsiveness, use `width: max(5vw, 500px)`. It can also work with `min` and `clamp`.
-+ `clamp(min, preferred, max)` is better. eg: 
++ `clamp(min, preferred, max)` is better. eg:
 
 ```bash
 h1 {
@@ -131,4 +126,4 @@ p {
 
 ```
 
-+ `aspect-ratio: 3/2;` - allows to define the ratio between width and height.
++ `aspect-ratio: 3/2;` - allows to define the ratio between width and height
