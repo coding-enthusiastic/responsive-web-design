@@ -130,12 +130,24 @@ p {
 
 ---
 
+## Project 9 - Balance Sheet
+
++ `aria-hidden="true"` makes it hidden for screen readers
+
++ `<caption>` defines a table caption. It must be inserted after `<table>` tag
+
++ `clip` lets you specify a rectangle to clip an absolutely positioned element. Its deprecated and replaced by `clip-path`. It wont work if `overflow: visible` exists.
+
++ Syntax: `clip: rect(0px, 50px, 100px, 0px)`
+
++ `calc(value + value2)` lets you assign dynamic value. eg: `width: calc(80vw - 35px)`
+
++ `div[class="new"]` only takes divs with the given class. But `div.new` includes div with new class.
+
++ `:first-of-type, :last-of-type, :nth-of-type()` lets you specify a element from group of same elemnt on the order basis. eg: `h2:nth-of-type(3) {}`
+
+---
+
 ## Project 11 - Piano
 
 + `float` - specifies how an element should float
-
-+ 
-
-+ 
-
-+ 
