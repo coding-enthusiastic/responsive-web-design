@@ -148,6 +148,14 @@ p {
 
 ---
 
+## Project 10 - Cat Painting
+
++ `border-radius: 40px 30px 50px 30px` it takes values as top-left, top-right, bottom-left and bottom-right respectively.
+
++ It can also be called like this: `border-radius-top-left:`
+
+---
+
 ## Project 11 - Piano
 
 + `float` - specifies how an element should float
