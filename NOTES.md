@@ -159,3 +159,34 @@ p {
 ## Project 11 - Piano
 
 + `float` - specifies how an element should float
+
+---
+
+## Project 14 - Ferris Wheel
+
++ `@keyframes name {}` is the main property of animation. You can the specify animation type inside it call the name in wherever you want.
+
++ These are the important animation properties:
+
+```bash
+animation-name: circle; # takes the keyframe name
+animation-duration: 5s; # sets duration of animation
+animation-delay: 2s; # sets delay before starting animation
+animation-iteration-count: 2; # sets the iteration count. "Infinite" is mostly used one.
+animation-direction: alternate; # sets the direction of animation.
+animation-timing-function: ease-in-out; # sets the speeding of animation.
+animation-fill-mode: forwards; # specifies whether the animation should kept before and after.
+animation-play-state: paused; # specifies whether the animation is running or paused;
+```
+
++ `animation: circle 5s linear 2s infinite alternate` is a shorthand of above things. It follows this order: name, duration, timing-function, delay, iteration-count, direction.
+
++ 
+
++ 
+
++ 
+
++ 
+
++ 
