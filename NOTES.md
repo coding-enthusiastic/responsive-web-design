@@ -162,6 +162,68 @@ p {
 
 ---
 
+## Project 12 - City Skyline
+
++ `:root {}` is the highest level element in html and css. If you declare anything inside it, you can call it anywhere in css.
+
++ `var()` is use to declare a variable in css. Normally its declared in `:root()` selector to access it everywhere. If you declare a variabe inside a chid, you wont be able to access it outside of it.
+
++ `--name: value` is the syntax for variable declaration
+
+### Gradients
+
++ CSS has three types of gradients: 
+    1. Linear Gradients
+    2. Radial Gradients
+    3. Conic Gradients
+
++ Gradient are treated as image. So, you cant give gradients inside background-color property. You can use either `background` or `background-image` property.
+
++ `background: linear-gradient(direction, color1, color2, ...)` is the syntax for gradient. In direction, you can declare degree values or top, bottom, etc values.
+
++ Radial gradient is defined by its center. 
+
++ `background-image: radial-gradient(shape size at position, color1, color2)` is syntax. By default, shape is ellipse, size is farthest-corner and position is center.
+
++ Conic gradient is with color transitions rotated around its center point.
+
++ `background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);`
+
+```bash
+# Liear Gradients
+.a {
+  backgroun: linear-gradient(to bottom right, red, yellow);
+}
+
+.b {
+  backgroun: repeating-linear-gradient(90deg, white, red 20%, green, 30%, yellow 40%);
+}
+
+# Radial Gradients
+
+.c {
+  background: radial-gradient(circle closest-side at 60% 50%, red, yellow);
+}
+
+.d {
+  background: repeating-radial-gradient(red, yellow);
+}
+
+# Conic Gradients
+
+.e {
+  background: conic-gradient(red, green, yellow);
+}
+
+.f {
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
+
+```
+
+---
+
 ## Project 14 - Ferris Wheel
 
 + `@keyframes name {}` is the main property of animation. You can the specify animation type inside it call the name in wherever you want.
