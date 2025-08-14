@@ -172,7 +172,7 @@ p {
 
 ### Gradients
 
-+ CSS has three types of gradients: 
++ CSS has three types of gradients:
     1. Linear Gradients
     2. Radial Gradients
     3. Conic Gradients
@@ -181,7 +181,7 @@ p {
 
 + `background: linear-gradient(direction, color1, color2, ...)` is the syntax for gradient. In direction, you can declare degree values or top, bottom, etc values.
 
-+ Radial gradient is defined by its center. 
++ Radial gradient is defined by its center.
 
 + `background-image: radial-gradient(shape size at position, color1, color2)` is syntax. By default, shape is ellipse, size is farthest-corner and position is center.
 
@@ -224,6 +224,32 @@ p {
 
 ---
 
+## Project 13 - Magazine
+
++ `loading` attribute works on `img` tag. It has two values. eager or lazy. If you select the lazy value, the image will only load when user scroll to it. If its not on the screen, it wont be loaded.
+
++ `<blockquote>` tag specifies a section for the content. Browsers usually indent the content in it.
+
++ `minmax()` attribute takes two values. min and max values. You can add this in width selector for responsiveness.
+
++ `row-gap` and `column-gap` are sub catefgories of `gap` property.
+
++ The default rem value of html is 16px. You can set to another value in html selector.
+
++ `<bdi>` is a useful tag to remove the text direction of a word from the sentence. eg: Adding arabic word inside a english sentence.
+
++ `grid-column: 1 / -1;` this will set the item to span till the last column.
+
++ `repeat(5, 1fr)` attribute takes 2 values. How many and length. It is used for grid set columns and rows.
+
++ `grid-auto-flow: column` property controls how auto placed items get inserted in grid.
+
++ `grid-auto-columns: 1fr` property sets a size for the columns in grid.
+
++ `place-items` property is the combined version of `align-items` and `justify-items`. It takes 2 values in the mentioned order.
+
+---
+
 ## Project 14 - Ferris Wheel
 
 + `@keyframes name {}` is the main property of animation. You can the specify animation type inside it call the name in wherever you want.
@@ -242,13 +268,3 @@ animation-play-state: paused; # specifies whether the animation is running or pa
 ```
 
 + `animation: circle 5s linear 2s infinite alternate` is a shorthand of above things. It follows this order: name, duration, timing-function, delay, iteration-count, direction.
-
-+ 
-
-+ 
-
-+ 
-
-+ 
-
-+ 
