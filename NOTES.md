@@ -3,6 +3,7 @@
 ## Project 1 - Cat Photo App
 
 + focus on **Basic HTML**
+
 + `<fieldset>` and `<legend>`
 
 ---
@@ -10,7 +11,9 @@
 ## Project 2 - Cafe Menu
 
 + focus on **Basic CSS**
+
 + `<article>` = Self contained piece of content (blog post, etc).
+
 + `a:visited {}` this pseudo-class can give more control on a tag. Others are `a:link, a:active, a:focus`
 
 + Use semantic HTML tags for better SEO and accessibility. Its also good for readability. Some of the tags:
@@ -37,8 +40,11 @@
 ## Project 3 - Colored Markers
 
 + focus on **CSS Colors**
+
 + rgb, rgba - `rgba(255, 127, 0, 0.5)`
+
 + hsl, hsla - `hsla(240, 100%, 100%, 0.8)`
+
 + hex, hexa - `#003BFAFF`
 
 + `background: linear-gradient(#55680D, #71F53E, #116C31);`
@@ -48,16 +54,23 @@
 ## Project 4 - Registration Form
 
 + focus on **HTML Forms**
+
 + `pattern="[a-z0-5]{8,}` in `<input type="password">`
+
 + min and max in `<input type="number">`
+
 + rows and cols in `<textarea>`
+
 + target="_blank" in `<a>` tag, opens the link in new tab.
 
 + `<select>` and `<option>`
 
 + `margin: auto` acts like justify-center in flex.
+
 + `p:last-of-type` psuedo element takes only the last element of specified tag for styling.
+
 + `vetical-align` acts like items-center in flex.
+
 + `input[type:"submit"]` selects only the input with the specified attribute.
 
 ---
@@ -65,8 +78,11 @@
 ## Project 5 - Rothko Painting
 
 + focus on **CSS Box Model**
+
 + `filter: blur(10px)` to blur the content
+
 + `transform: rotate(0.5deg)` to rotate the content
+
 + `box-shadow: 0 0 3px 3px #8f0401` to give shadow to the box model.
 
 ---
@@ -74,8 +90,11 @@
 ## Project 6 - Photo Gallery
 
 + focus on **CSS Flexbox**
+
 + `text-transform: uppercase`
+
 + `box-sizing: border-box` and `content-box`. border-box for content the items inside the box.
+
 + `.item::after` and `::before` to style something before and after the item.
 
 ---
@@ -83,6 +102,7 @@
 ## Project 7 - Nutrition Label
 
 + focus on **Typography**
+
 + `rem` means root em, which is mainly used for fonts. this takes root font-size as main value, and adjust the content. eg:
 
 ```bash
@@ -98,6 +118,7 @@ textOne { font-size: 0.50rem } // around 10px
 ## Project 8 - Quiz
 
 + focus on **Accessibility**
+
 + `@media (prefers-reduced-motion: no-preference) {}` - used for accessibility setting. `no-preference` prevents problems that causing transition, animation issues.
 
 + `role=""` attribute creates better accessibility. It specifies the content role. eg:
@@ -113,6 +134,7 @@ textOne { font-size: 0.50rem } // around 10px
 ```
 
 + Instead of using media query for responsiveness, use `width: max(5vw, 500px)`. It can also work with `min` and `clamp`.
+
 + `clamp(min, preferred, max)` is better. eg:
 
 ```bash
@@ -132,6 +154,8 @@ p {
 
 ## Project 9 - Balance Sheet
 
++ focus on **CSS Psuedo Selectors**
+
 + `aria-hidden="true"` makes it hidden for screen readers
 
 + `<caption>` defines a table caption. It must be inserted after `<table>` tag
@@ -150,6 +174,8 @@ p {
 
 ## Project 10 - Cat Painting
 
++ focus on **Intermediate level CSS**
+
 + `border-radius: 40px 30px 50px 30px` it takes values as top-left, top-right, bottom-left and bottom-right respectively.
 
 + It can also be called like this: `border-radius-top-left:`
@@ -158,11 +184,15 @@ p {
 
 ## Project 11 - Piano
 
++ focus on **Responsive Web Design**
+
 + `float` - specifies how an element should float
 
 ---
 
 ## Project 12 - City Skyline
+
++ focus on **CSS Variables**
 
 + `:root {}` is the highest level element in html and css. If you declare anything inside it, you can call it anywhere in css.
 
@@ -226,6 +256,8 @@ p {
 
 ## Project 13 - Magazine
 
++ focus on **CSS Grid**
+
 + `loading` attribute works on `img` tag. It has two values. eager or lazy. If you select the lazy value, the image will only load when user scroll to it. If its not on the screen, it wont be loaded.
 
 + `<blockquote>` tag specifies a section for the content. Browsers usually indent the content in it.
@@ -248,9 +280,13 @@ p {
 
 + `place-items` property is the combined version of `align-items` and `justify-items`. It takes 2 values in the mentioned order.
 
++ `div:first-letter` pseudo class takes the first letter from the selected tag content for styling.
+
 ---
 
 ## Project 14 - Ferris Wheel
+
++ focus on **CSS Animation**
 
 + `@keyframes name {}` is the main property of animation. You can the specify animation type inside it call the name in wherever you want.
 
@@ -268,3 +304,17 @@ animation-play-state: paused; # specifies whether the animation is running or pa
 ```
 
 + `animation: circle 5s linear 2s infinite alternate` is a shorthand of above things. It follows this order: name, duration, timing-function, delay, iteration-count, direction.
+
+---
+
+## Project 15 - Penguins
+
++ focus on **CSS Transforms**
+
++ `transform: skew(x axis, y axis)` is an transform function, which can skew element (like making a font italic) by angles.
+
++ `cursor` property specifies the mouse cursor behaviour. "not allowed" is one of the attributes, which shows 'X' arrow.
+
++ `font` property is a short hand of multiple font related properties.
+
++ `transform-origin` property allows you to change the position of the transformed elements. It should be used with `transform` property.
