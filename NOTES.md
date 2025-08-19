@@ -67,9 +67,9 @@
 
 + `margin: auto` acts like justify-center in flex.
 
-+ `p:last-of-type` psuedo element takes only the last element of specified tag for styling.
++ `p:last-of-type` pseudo element takes only the last element of specified tag for styling.
 
-+ `vetical-align` acts like items-center in flex.
++ `vertical-align` acts like items-center in flex.
 
 + `input[type:"submit"]` selects only the input with the specified attribute.
 
@@ -154,7 +154,7 @@ p {
 
 ## Project 9 - Balance Sheet
 
-+ focus on **CSS Psuedo Selectors**
++ focus on **CSS Pseudo Selectors**
 
 + `aria-hidden="true"` makes it hidden for screen readers
 
@@ -168,7 +168,7 @@ p {
 
 + `div[class="new"]` only takes divs with the given class. But `div.new` includes div with new class.
 
-+ `:first-of-type, :last-of-type, :nth-of-type()` lets you specify a element from group of same elemnt on the order basis. eg: `h2:nth-of-type(3) {}`
++ `:first-of-type, :last-of-type, :nth-of-type()` lets you specify a element from group of same element on the order basis. eg: `h2:nth-of-type(3) {}`
 
 ---
 
@@ -196,7 +196,7 @@ p {
 
 + `:root {}` is the highest level element in html and css. If you declare anything inside it, you can call it anywhere in css.
 
-+ `var()` is use to declare a variable in css. Normally its declared in `:root()` selector to access it everywhere. If you declare a variabe inside a chid, you wont be able to access it outside of it.
++ `var()` is use to declare a variable in css. Normally its declared in `:root()` selector to access it everywhere. If you declare a variable inside a chid, you wont be able to access it outside of it.
 
 + `--name: value` is the syntax for variable declaration
 
@@ -220,13 +220,13 @@ p {
 + `background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);`
 
 ```bash
-# Liear Gradients
+# Linear Gradients
 .a {
-  backgroun: linear-gradient(to bottom right, red, yellow);
+  background: linear-gradient(to bottom right, red, yellow);
 }
 
 .b {
-  backgroun: repeating-linear-gradient(90deg, white, red 20%, green, 30%, yellow 40%);
+  background: repeating-linear-gradient(90deg, white, red 20%, green, 30%, yellow 40%);
 }
 
 # Radial Gradients
@@ -264,7 +264,7 @@ p {
 
 + `minmax()` attribute takes two values. min and max values. You can add this in width selector for responsiveness.
 
-+ `row-gap` and `column-gap` are sub catefgories of `gap` property.
++ `row-gap` and `column-gap` are sub categories of `gap` property.
 
 + The default rem value of html is 16px. You can set to another value in html selector.
 
@@ -313,7 +313,7 @@ animation-play-state: paused; # specifies whether the animation is running or pa
 
 + `transform: skew(x axis, y axis)` is an transform function, which can skew element (like making a font italic) by angles.
 
-+ `cursor` property specifies the mouse cursor behaviour. "not allowed" is one of the attributes, which shows 'X' arrow.
++ `cursor` property specifies the mouse cursor behavior. "not allowed" is one of the attributes, which shows 'X' arrow.
 
 + `font` property is a short hand of multiple font related properties.
 
